@@ -7,8 +7,17 @@
   "scripts": {
     "build": "node ./config/build.js"
   },
-  "author": "",
-  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./dist/js/auto-generated-tokens.js"
+    },
+    "./dist/tokens.css": {
+      "import": "./dist/css/auto-generated-tokens.css",
+      "require": "./dist/css/auto-generated-tokens.css"
+    }
+  },
+  "author": "craigtut",
+  "license": "UNLICENSED",
   "devDependencies": {
     "style-dictionary": "^4.1.4"
   }

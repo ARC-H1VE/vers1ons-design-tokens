@@ -5,7 +5,7 @@ import StyleDictionary from 'style-dictionary';
 
 async function asyncBuild() {
   const tokenDirectory = './tokens';
-  const distDirectory = './tokens';
+  const distDirectory = './dist';
 
   // Configure the output of style dictionary
   const styleDictionary = new StyleDictionary({
