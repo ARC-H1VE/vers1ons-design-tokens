@@ -17,7 +17,7 @@
     }
   },
   "author": "craigtut",
-  "license": "UNLICENSED",
+  "license": "None",
   "devDependencies": {
     "style-dictionary": "^4.1.4"
   }
