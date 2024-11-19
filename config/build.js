@@ -30,7 +30,7 @@ async function asyncBuild() {
         files: [
           {
             "format": "javascript/module",
-            "destination": "auto-generated-tokens.js"
+            "destination": "auto-generated-tokens.ts"
           },
           {
             "format": "typescript/module-declarations",
