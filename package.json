@@ -2,14 +2,17 @@
   "name": "vers1ons-design-tokens",
   "version": "1.0.0",
   "description": "Design tokens for Vers1ons",
-  "main": "index.js",
   "type": "module",
+  "main": "./dist/ts/auto-generated-tokens.js",
   "scripts": {
     "build": "node ./config/build.js"
   },
   "exports": {
     ".": {
-      "import": "./dist/js/auto-generated-tokens.js"
+      "types": "./dist/ts/auto-generated-tokens.d.ts",
+      "import": "./dist/ts/auto-generated-tokens.js",
+      "require": "./dist/ts/auto-generated-tokens.js",
+      "default": "./dist/ts/auto-generated-tokens.js" 
     },
     "./dist/tokens.css": {
       "import": "./dist/css/auto-generated-tokens.css",
